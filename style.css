@@ -1,0 +1,97 @@
+h1 {
+    text-shadow: 2px 2px #F8BBDO;
+    font-size: 20px;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+    background-repeat: no-repeat;
+    font-family: 'Antonio', sans-serif;
+    padding-top: 800px;
+
+}
+
+img {
+    border-radius: 50%;
+    text-align: center;
+}
+
+#bio {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    z-index: 10;
+    display: inline;
+    list-style: none;
+    display: inline;
+}
+
+#drawing {
+    z-index: 9;
+    text-align: center;
+}
+
+#myname {
+    font-family: 'Courgette', cursive;
+}
+
+.line {
+    height: 6px;
+    background-color: darkgreen;
+    width: 80px;
+    margin: 8px auto;
+}
+
+.links {
+    float: left;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+.links:hover {
+    background-color: aqua;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.article:hover {
+    color: fuchsia;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+img{
+    transition: transfrom .2s;
+    border: 10px solid #AAAAAA;
+}
+img:hover{
+    transform: scale(0.9);
+}
+
